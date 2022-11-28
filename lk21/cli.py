@@ -28,7 +28,7 @@ Bypasser = extractors.pop("bypass")(logging)
 
 class SearchAll(BaseExtractor):
     def __init__(self, *args, **kwargs):
-    super().__init__(*args, **kwargs)
+      super().__init__(*args, **kwargs)
 
     self.endloop = False
     self.q = queue.Queue()
