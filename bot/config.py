@@ -1,13 +1,20 @@
-class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
+class config:    BOT_TOKEN = "5541380668:AAGH9yGr_4leFAgG35raDvAi1Q82ynMJGG0"
+3
+    APP_ID = "6534707"
+4
+    API_HASH = "4bcc61d959a9f403b2f20149cbbe627a"
+5
+    DATABASE_URL = "mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority"
+6
     SUDO_USERS = "" # Sepearted by space.
+7
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+8
+    G_DRIVE_CLIENT_ID = "113986320920-6j0u34egb7ptdfgsj9sucdtqpff6arf3.apps.googleusercontent.com"
+9
+    G_DRIVE_CLIENT_SECRET = "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"
+10
+    SUPPORT_CHAT_LINK = "https://t.me/animecolony"
 
 
 class BotCommands:
