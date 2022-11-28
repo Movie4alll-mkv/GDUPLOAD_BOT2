@@ -27,7 +27,7 @@ obj.__name__.lower(): obj for obj in BaseExtractor.__subclasses__() if obj
 Bypasser = extractors.pop("bypass")(logging)
 
 class SearchAll(BaseExtractor):
-def __init__(self, *args, **kwargs):
+    def __init__(self, *args, **kwargs):
     super().__init__(*args, **kwargs)
 
     self.endloop = False
