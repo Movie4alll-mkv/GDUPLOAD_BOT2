@@ -235,11 +235,11 @@ def main():
                 if index >= len(pgs) - 1:
                     try:
                         ppage = Range.__next__()
-                        if len(res := extractor.search(query, page=page)) > 0:
-                            page = ppage
-                            cache[page] = res
-                        else:
-                            extractor.counter -= len(cache[page])
+  if len(res := extractor.search(query, page=page)) > 0:
+        page = ppage
+             cache[page] = res
+                   else:
+            extractor.counter -= len(cache[page])
                     except StopIteration:
                         nextPage = False
                 else:
