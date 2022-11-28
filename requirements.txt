@@ -14,6 +14,5 @@ youtube_dl
 ffmpeg
 tenacity
 html5lib
-lk21
 beautifulsoup4
 lxml
