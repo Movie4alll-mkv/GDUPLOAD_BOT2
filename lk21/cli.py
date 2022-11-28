@@ -129,7 +129,7 @@ def worker(self, query, page=1):
         self.q.task_done()
 
 def main():
-global extractors
+   global extractors
 
 logging.info(f"""
 _____     ___  ____    _____    __
